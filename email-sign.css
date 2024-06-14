@@ -1,0 +1,70 @@
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+.signature-container {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #DDD;
+    padding: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+
+.signature-image img {
+    border: 0;
+    height: 112px;
+    width: 112px;
+}
+
+.signature-info {
+    padding-left: 15px;
+    line-height: 1.5;
+}
+
+.signature-name {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #333;
+}
+
+.signature-position, .signature-organization {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #666;
+}
+
+.signature-tagline {
+    font-size: 9pt;
+    font-style: italic;
+    color: #333;
+}
+
+.signature-address, .signature-contact, .signature-links {
+    font-size: 9pt;
+    color: #333;
+}
+
+.signature-links a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.signature-links a:hover {
+    text-decoration: underline;
+}
+
+.signature-social img {
+    border: none;
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+.signature-social a {
+    display: inline-block;
+    margin-right: 5px;
+}
